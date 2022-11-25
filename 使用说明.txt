@@ -1,0 +1,11 @@
+本程序用于字符集转化批处理
+使用之前，请将transform运行程序复制至/usr/bin/
+命令:cp transform /usr/bin/
+
+程序使用格式:
+transform 目录名 原字符集 转化字符集 true/flase(是否删除原目录)
+例如:transform /transform gbk utf-8 true
+
+备注:
+若显示未找到命令，请在本目录使用本程序添加'./'
+例如:./transform /transform gbk utf-8 true
